@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="w-full border-b border-gray-200">
-      <div
-        className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between"
-      >
+      <div className="max-w-7xl mx-auto px-8 md:h-16 py-4   flex flex-col items-start md:flex-row  gap-7 md:items-center justify-between">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold text-blue-700">
           ShopHub
